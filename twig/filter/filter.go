@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/tyler-sommer/stick"
+	"github.com/neilmcgibbon/stick"
 	"reflect"
 	"time"
 )

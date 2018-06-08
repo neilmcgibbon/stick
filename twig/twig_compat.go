@@ -21,14 +21,14 @@
 // 	// Substitute os.Stdout with any io.Writer.
 // 	env.Execute("Hello, {{ name }}!", os.Stdout, p)
 //
-// Check the main package https://godoc.org/github.com/tyler-sommer/stick for
+// Check the main package https://godoc.org/github.com/neilmcgibbon/stick for
 // more information on general functionality and usage.
 package twig
 
 import (
-	"github.com/tyler-sommer/stick"
-	"github.com/tyler-sommer/stick/parse"
-	"github.com/tyler-sommer/stick/twig/filter"
+	"github.com/neilmcgibbon/stick"
+	"github.com/neilmcgibbon/stick/parse"
+	"github.com/neilmcgibbon/stick/twig/filter"
 )
 
 // New creates a new, default Env that aims to be compatible with Twig.
